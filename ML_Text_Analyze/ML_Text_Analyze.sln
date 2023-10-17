@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML_Text_Analyze", "ML_Text_Analyze\ML_Text_Analyze.csproj", "{AD16F032-32DC-433B-A427-92D10B6DF7F8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E8260E48-6EC7-48E9-8F81-F269DB28D1C1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\Downloads\sentiment labelled sentences\sentiment labelled sentences\yelp_labelled.txt = ..\..\..\..\..\..\..\Downloads\sentiment labelled sentences\sentiment labelled sentences\yelp_labelled.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentalModel_App", "SentimentalModel_App\SentimentalModel_App.csproj", "{3ED9CDE5-89A6-4217-914B-A56FBF4FDD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD16F032-32DC-433B-A427-92D10B6DF7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD16F032-32DC-433B-A427-92D10B6DF7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD16F032-32DC-433B-A427-92D10B6DF7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD16F032-32DC-433B-A427-92D10B6DF7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED9CDE5-89A6-4217-914B-A56FBF4FDD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED9CDE5-89A6-4217-914B-A56FBF4FDD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED9CDE5-89A6-4217-914B-A56FBF4FDD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED9CDE5-89A6-4217-914B-A56FBF4FDD02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
